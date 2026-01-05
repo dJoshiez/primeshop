@@ -1,6 +1,6 @@
 export const BASE_URL =
-    process.env.NODE_ENV === 'development'
-        ? 'https://primeshop-689f.onrender.com'
+    process.env.NODE_ENV === 'production'
+        ? 'https://primeshop-e69f.onrender.com/'
         : 'http://localhost:5000';
 
 // API endpoints
